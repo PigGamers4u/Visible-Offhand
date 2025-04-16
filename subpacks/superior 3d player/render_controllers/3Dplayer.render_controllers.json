@@ -1,0 +1,42 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.layer": {
+      "geometry": "Geometry.layer",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "part_visibility": [
+        { "*": true }
+      ]
+    },
+    "controller.render.1stlayer": {
+      "geometry": "Geometry.layer",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "part_visibility": [
+        { "*": false },
+        { "rightSleeve_0": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'" },
+        { "rightSleeve_1": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'" },
+        { "rightSleeve_2": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'" },
+        { "rightSleeve_3": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'" },
+        { "rightSleeve_4": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'" },
+        { "rightSleeve_5": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'" },
+        { "rightSleeve_0_edges": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'" },
+        { "rightSleeve_1_edges": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'" },
+        { "rightSleeve_2_edges": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'" },
+        { "rightSleeve_3_edges": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'" },
+
+        { "leftSleeve_0": "query.get_equipped_item_name('off_hand') == '' || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged)" },
+        { "leftSleeve_1": "query.get_equipped_item_name('off_hand') == '' || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged)" },
+        { "leftSleeve_2": "query.get_equipped_item_name('off_hand') == '' || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged)" },
+        { "leftSleeve_3": "query.get_equipped_item_name('off_hand') == '' || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged)" },
+        { "leftSleeve_4": "query.get_equipped_item_name('off_hand') == '' || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged)" },
+        { "leftSleeve_5": "query.get_equipped_item_name('off_hand') == '' || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged)" },
+        { "leftSleeve_0_edges": "query.get_equipped_item_name('off_hand') == '' || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged)" },
+        { "leftSleeve_1_edges": "query.get_equipped_item_name('off_hand') == '' || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged)" },
+        { "leftSleeve_2_edges": "query.get_equipped_item_name('off_hand') == '' || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged)" },
+        { "leftSleeve_3_edges": "query.get_equipped_item_name('off_hand') == '' || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged)" }
+      ]
+    }
+  }
+}

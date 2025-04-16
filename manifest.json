@@ -1,0 +1,55 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Visible Offhand",
+		"description": "§ePack Made By §bBigGamers4u\n§fThis pack shows your offhand when hand is empty",
+		"min_engine_version": [1, 21, 31],
+		"uuid": "4595b2b4-9a83-4042-8997-01f82a9d7986",
+		"version": [1, 20, 80]
+	},
+	"modules": [
+		{
+			"description": "§ePack Made By §bBigGamers4u\nThis pack shows your offhand when hand is empty",
+			"type": "resources",
+			"uuid": "c6aadf91-6115-40e5-9162-e7241c1520dd",
+			"version": [0, 0, 1]
+		}
+	],
+	"subpacks":[
+      {
+         "folder_name":"complex left hand",
+         "name":"§e§lCompatible With §l§nComplex Left Hand §f/ Default§r§s\n§6This let's The Pack Know You Want To Use Another Pack With It",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"superior 3d player",
+         "name":"§e§lCompatible With §o§dSuperior §63D §ePlayer §f/ Default§r§s\n§6This let's The Pack Know You Want To Use Another Pack With It",
+         "memory_tier":0
+      },
+	  {
+		"folder_name":"short arms",
+		"name":"§f§lShort Arms§r§e\nMakes Them Small but Long",
+		"memory_tier":0
+	  },
+	  {
+		"folder_name":"long arms",
+		"name":"§f§lLong Arms§r§e\nMakes Them Longer",
+		"memory_tier":0
+	  },
+	  {
+		"folder_name":"longer arms",
+		"name":"§f§lLonger Arms§r§e\nMakes Them Longer",
+		"memory_tier":0
+	  },
+	  {
+		"folder_name":"bedrock arms",
+		"name":"§f§lBedrock Arms§r§e\nTurns The Hands to Bedrock",
+		"memory_tier":0
+	  },
+	  {
+		"folder_name":"default",
+		"name":"§f§lDefault§r§e\nTurns The Hands to Java",
+		"memory_tier":0
+	 }
+  ]
+}

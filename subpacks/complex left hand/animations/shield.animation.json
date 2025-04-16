@@ -1,0 +1,65 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.shield.wield_main_hand_first_person": {
+			"loop": true,
+			"bones": {
+				"shield": {
+					"rotation": [-90, -110, -150],
+					"position": [-14, 24, 0]
+				}
+			}
+		},
+		"animation.shield.wield_off_hand_first_person": {
+			"loop": true,
+			"bones": {
+				"shield": {
+					"rotation": [-90, 110, 150],
+					"position": [12, 24, "variable.is_using_bow ? variable.off_hand_first_person_with_bow_pos_z : 0"]
+				}
+			}
+		},
+		"animation.shield.wield_main_hand_first_person_blocking": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.1,
+			"bones": {
+				"shield": {
+					"rotation": {
+						"0.0": [-90, -110, -150],
+						"0.1": [-90, -120, -150]
+					},
+					"position": {
+						"0.0": [-14, 24, 0],
+						"0.1": [-14, 21, -3]
+					}
+				}
+			}
+		},
+		"animation.shield.wield_off_hand_first_person_blocking": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.1,
+			"bones": {
+				"shield": {
+					"rotation": {
+						"0.0": [-90, 110, 150],
+						"0.1": [-90, 120, 150]
+					},
+					"position": {
+						"0.0": [12, 24, 0],
+						"0.1": [14, 21, -3]
+					}
+				}
+			}
+		},
+		"animation.shield.wield_third_person": {
+			"loop": true,
+			"bones": {
+				"shield": {
+					"rotation": [-90, 0, -450],
+					"position": ["c.item_slot == 'main_hand' ? -0.4 : -1.1", 9, 8.55],
+					"scale": ["c.item_slot == 'main_hand' ? 1.0 : -1.0", -1, "c.item_slot == 'main_hand' ? -1.0 : 1.0"]
+				}
+			}
+		}
+	}
+}
